@@ -109,7 +109,7 @@ const HomeScreen = () => {
               <Text style={{fontSize:18,fontWeight:600,marginTop:8}}>DashBoard</Text>
             </Pressable>
             <Pressable
-            //  onPress={()=>navigation.navigate('Scan')}
+             onPress={()=>navigation.navigate('Scan')}
               style={{flex:1,padding:20,justifyContent:"center",alignItems:"center",borderBottomWidth:1}}>
               <Image source={require("../common/loupe.png")}
                   style={{height:80,width:80}}/>
@@ -123,7 +123,7 @@ const HomeScreen = () => {
               <Text style={{fontSize:18,fontWeight:600,marginTop:8}}>Help</Text>
             </Pressable>
             <Pressable 
-            // onPress={()=>navigation.navigate('About')} 
+            // 
             style={{flex:1,padding:20,justifyContent:"center",alignItems:"center"}}>
             <Image source={require("../common/info.png")}
                   style={{height:80,width:80}}/>
